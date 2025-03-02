@@ -21,16 +21,17 @@ import zh_Hans from "./languages/zh-Hans.js";
 import zh_Hant from "./languages/zh-Hant.js";
 import ru from "./languages/ru.js";
 import nl_nl from "./languages/nl-nl.js";
+import fr from "./languages/fr.js";
 
 /**
  * All available languages.
  */
 const languages = {
-    de, en, pt_br, zh_Hans, zh_Hant, ru, nl_nl
+    de, en, fr, pt_br, zh_Hans, zh_Hant, ru, nl_nl
 };
 
 // The default language to use if none is specified in the configuration
-const defaultLanguage = "en";
+const defaultLanguage = "fr";
 
 
 // Contains all missing translations discovered to prevent logging them
